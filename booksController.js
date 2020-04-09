@@ -22,3 +22,14 @@ for (let i = 0; i < booksLength; i++) {
         console.log(books[i].title);
     }
 }
+
+
+// Display all the books (show only book titles) which have more than 350 pages
+
+console.log("\nBooks with more than 350 pages");
+console.log(`....................................................................................\n`);
+for (let i = 0; i < booksLength; i++) {
+    if (books[i].pages > 350) {
+        console.log(books[i].title);
+    }
+}
