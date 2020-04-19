@@ -1,0 +1,20 @@
+.cross-mark {
+    position: absolute;
+    right: 7px;
+    top: 0;
+    margin-top: 13px;
+  }
+  
+  .check-mark {
+    position: absolute;
+    right: 37px;
+    top: 0;
+    margin-top: 13px;
+  }
+  
+  /* When clicked on, strike out text */
+  ul li.checked {
+    /* background: rgb(131, 205, 191);
+    color: #fff; */
+    text-decoration: line-through;
+  }
